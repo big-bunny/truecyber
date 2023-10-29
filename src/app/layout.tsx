@@ -16,7 +16,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div 
+          style={{
+            backgroundImage: "url(/images/red1.jpg)",
+            backgroundSize: "contain",  // Use "contain" instead of "cover"
+            backgroundPosition: "center",
+            minHeight: "100vh",
+          }}
+        >
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

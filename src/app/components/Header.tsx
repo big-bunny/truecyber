@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="bg-blue-500 text-white px-4 py-3 flex justify-between items-center">
+    <header className="bg-blur-3x text-white px-4 py-3 flex justify-between items-center">
       <h1 className="text-2xl font-bold">TrueCyber Cafe</h1>
       
       <nav>
